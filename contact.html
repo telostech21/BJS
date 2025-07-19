@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Bright Angel Junior School</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Bright Angel Junior School Logo">
+                <h1>Bright Angel Junior School</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="academics.html">Academics</a></li>
+                    <li><a href="admissions.html">Admissions</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li class="active"><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p>We'd love to hear from you. Reach out with any questions or to schedule a visit.</p>
+        </div>
+    </section>
+
+    <section class="contact-info">
+        <div class="container">
+            <div class="contact-methods">
+                <div class="contact-method">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Location</h3>
+                    <p>Bukoyo, Iganga District</p>
+                    <p>Uganda</p>
+                    <a href="#map" class="btn small">View on Map</a>
+                </div>
+                <div class="contact-method">
+                    <i class="fas fa-phone"></i>
+                    <h3>Phone</h3>
+                    <p>+256 772 690751 (Director)</p>
+                    <p>+256 772 987654 (Head Teacher)</p>
+                    <a href="tel:+256772690751" class="btn small">Call Now</a>
+                </div>
+                <div class="contact-method">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>info@brightangeljunior.ac.ug</p>
+                    <p>admissions@brightangeljunior.ac.ug</p>
+                    <a href="mailto:info@brightangeljunior.ac.ug" class="btn small">Email Us</a>
+                </div>
+                <div class="contact-method">
+                    <i class="fab fa-whatsapp"></i>
+                    <h3>WhatsApp</h3>
+                    <p>+256 752 690751</p>
+                    <p>Available 8am-5pm Mon-Fri</p>
+                    <a href="https://wa.me/256772690751" class="btn small" target="_blank">Chat Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-form-section">
+        <div class="container">
+            <div class="form-container">
+                <h2>Send Us a Message</h2>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <select id="subject" name="subject">
+                            <option value="admissions">Admissions Inquiry</option>
+                            <option value="general">General Information</option>
+                            <option value="visit">Schedule a Visit</option>
+                            <option value="feedback">Feedback/Suggestion</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+            <div class="contact-image">
+                <img src="images/contact.jpg" alt="Children at Bright Angel Junior School">
+            </div>
+        </div>
+    </section>
+
+    <section class="map" id="map">
+        <div class="container">
+            <h2>Our Location</h2>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.647143344106!2d33.46812381475391!3d0.6099999999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMMKwMzYnMzYuMCJOIDMzwzAyOCczNS4yIkU!5e0!3m2!1sen!2sug!4v1620000000000!5m2!1sen!2sug" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="location-details">
+                <h3>Directions to Bright Angel Junior School</h3>
+                <p>From Iganga Town:</p>
+                <ol>
+                    <li>From the main road coming from kampala to Iganga</li>
+                    <li>Turn left at the Bright Angel signpost in CMS</li>
+                    <li>Drive for 50m from the maon road</li>
+                    <li>Turn right and you will see the school gate</li>
+                </ol>
+                <p>Public transport: Take a taxi or boda boda to CMS and ask for directions to Bright Angel Junior School.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="office-hours">
+        <div class="container">
+            <h2>Office Hours</h2>
+            <div class="hours-grid">
+                <div class="day">
+                    <h3>Monday - Friday</h3>
+                    <p>8:00 AM - 5:00 PM</p>
+                </div>
+                <div class="day">
+                    <h3>Saturday</h3>
+                    <p>9:00 AM - 1:00 PM</p>
+                </div>
+                <div class="day">
+                    <h3>Sunday</h3>
+                    <p>Closed</p>
+                </div>
+                <div class="day">
+                    <h3>Holidays</h3>
+                    <p>Closed on public holidays</p>
+                </div>
+            </div>
+            <div class="emergency-contact">
+                <p><strong>For emergencies during off-hours:</strong> Call +256 772 987654 (Head Teacher)</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="social-media">
+        <div class="container">
+            <h2>Connect With Us</h2>
+            <div class="social-links">
+                <a href="#" class="social-link facebook">
+                    <i class="fab fa-facebook-f"></i>
+                    <span>Facebook</span>
+                </a>
+                <a href="#" class="social-link twitter">
+                    <i class="fab fa-twitter"></i>
+                    <span>Twitter</span>
+                </a>
+                <a href="#" class="social-link instagram">
+                    <i class="fab fa-instagram"></i>
+                    <span>Instagram</span>
+                </a>
+                <a href="#" class="social-link youtube">
+                    <i class="fab fa-youtube"></i>
+                    <span>YouTube</span>
+                </a>
+            </div>
+            <div class="newsletter">
+                <h3>Subscribe to Our Newsletter</h3>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit" class="btn">Subscribe</button>
+                </form>
+                <p>Get updates on school events, academic programs, and more.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h3>About Us</h3>
+                    <p>Bright Angel Junior School is a community-based primary school in Bukoyo, Iganga District, committed to academic excellence and moral upbringing.</p>
+                    <div class="socials">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="academics.html">Academics</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Bukoyo, Iganga District, Uganda</p>
+                    <p><i class="fas fa-phone"></i> +256 752 690751</p>
+                    <p><i class="fas fa-envelope"></i> info@brightangeljunior.ac.ug</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Bright Angel Junior School. All Rights Reserved.</p>
+                <div class="language-toggle">
+                    <span>Language:</span>
+                    <a href="#">English</a>
+                    <a href="#">Luganda</a>
+                    <a href="#">Lusoga</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
